@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+jedi = "*"
+flake8 = "*"
+flake8-module-name = "*"
+pep8-naming = "*"
+pytest-cov = "*"
+pytest = "*"
+black = "==19.10b0"
+mccabe = "*"
+
+[packages]
+jupyter = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+sklearn = "*"
+graphviz = "*"
+mlflow = "*"
+
+[requires]
+python_version = "3.7"
